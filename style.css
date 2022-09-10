@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #111;
+    letter-spacing: 0.05em;
+
+}
+
+body{
+    background: rgb(239, 249, 253);
+}
+
+.container{
+    flex-direction: column;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.review{
+    color: #222;
+    margin-bottom: 1.8em;
+}
+
+.review::before{
+    position:absolute;
+    content: "";
+    width: 1.87em;
+    height: 0.44%;
+    background: rgb(1, 154, 255);
+    margin-top: 1.3em;
+    margin-left: 2em;
+    box-shadow: 0 0 2px rgb(1, 154, 255);
+}
+
+.review-card{
+    /* height:50%; */
+    width: 37vw;
+    box-shadow: 0 0 8px #888;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.name h4{
+    text-align: center;
+    letter-spacing: 0.25em;
+    padding-bottom: 0.17em;
+}
+
+.quote{
+    padding: 0.08em;
+    background-position: center;
+    position: absolute;
+    background-size:1.4em;
+    background-repeat: no-repeat;
+    width:2em;
+    height: 2em;
+    background-image: url("images/icons8-quote-100.png");
+    margin-right: 5.2em;
+    margin-top: 0.9em;
+    background-color:rgb(85, 184, 250);
+    border-radius:50%;
+    
+}
+
+.id{
+    margin-bottom: 1.1em;
+    display: block;
+    margin-top: 0.3em;
+    box-shadow: 0.3em -0.3em 0 rgb(85, 184, 250);
+    width: 7em;
+    height: 7em;
+    border-radius: 50%;
+}
+
+.career{
+    letter-spacing: 0em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:600;
+    font-size: 0.83em;
+    color:rgba(1, 153, 255, 0.582);
+    text-shadow: 0 0 1px rgba(1, 153, 255, 0.582);
+}
+
+.about{
+    padding: 0.7em 0.7em;
+    text-align: center;
+    color:#888;
+    font-size: 0.89em;
+}
+
+#left-arrow{
+    background-image: url(images/icons8-left-arrow-64.png);
+    margin-right: 0.4em;
+
+}
+
+#right-arrow{
+    background-image: url(images/icons8-right-arrow-64.png);
+    margin-left: 0.4em;
+
+}
+
+#right-arrow, #left-arrow{
+    background-color: #fff;
+    border: none;
+    background-size: contain;
+    width: 1em;
+    height: 1.3em;
+    padding: 0.7em 0.3em;
+    background-repeat: no-repeat;
+}
+
+#right-arrow:hover , #left-arrow:hover{
+    cursor: pointer;
+}
+
+#Surprise{
+    background-color:rgba(85, 184, 250, 0.144) ;
+    color: rgb(85, 184, 250);
+    border: 1px solid rgb(85, 184, 250);
+    padding: 0.3em;
+    margin: 0.3em;
+    border-radius: 7px;
+    font-size:0.7em;
+}
